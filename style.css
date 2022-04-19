@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+nav{
+    min-height: 100px;
+    width: 100%;
+    background: #d6afdc;
+}
+
+nav>ul>li{
+    float: left;
+    margin: 20px auto;
+    padding: 20px;
+    list-style: none;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    padding: 20px;
+    margin: auto;
+}
+nav>ul>li>a:hover{
+    background-color: blue;
+    color: #fff;
+}
